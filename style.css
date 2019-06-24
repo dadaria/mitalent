@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:800, 600');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    background: url(img/Rectangle\ 3.jpg) no-repeat right top;
+    
+
+}
+
+nav {
+    display: inline;
+    white-space: nowrap;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 10px;
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    margin-top: 75px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+nav ul li:hover, .fa-search:hover, .social-icons li:hover {
+    color: rgb(215, 230, 230);
+}
+
+nav img[alt="logo"] {
+    margin-left: 30%;
+    margin-right: 30%;
+    display: inline-block;
+}
+
+.fa-search {
+    float: right;
+    display: inline-block;
+    margin-right: 60px;
+    margin-top: 75px;
+}
+
+img[alt="man's portrait"] {
+    height: 810px;
+    width: 1121px;
+    margin-left: 15%;
+    margin-top: -237px;
+}
+
+.social-icons {
+    margin-top: 190px;
+    margin-left: 60px;
+    list-style: none;
+}
+
+.social-icons li {
+    margin-bottom: 40px;
+}
+
+.model-info .name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 101px;
+    line-height: 100px;
+    margin-left: 18%;
+    margin-top: -15%; 
+}
+
+.model-info .title {
+    font-family: Nunito;
+    color:  #1a1a1d;
+    font-size: 17px;
+    line-height: 30px;
+    margin-left: 18%;
+}
+
+
+
+
